@@ -1,0 +1,85 @@
+# ==========================================
+# Python Core & Byte-compiled files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ==========================================
+# Virtual Environments (Local Setup)
+# ==========================================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# FastAPI Configuration & Environment Secrets
+# ==========================================
+# Ignore actual environment files containing secret keys
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# Testing & Code Coverage (Pytest)
+# ==========================================
+.pytest_cache/
+.coverage
+htmlcov/
+flake8/
+.cache
+.tox/
+.nox/
+
+# ==========================================
+# Type Checkers and Linters
+# ==========================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# ==========================================
+# Package Distribution & Build Outputs
+# ==========================================
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================
+# Databases (SQLite local development)
+# ==========================================
+*.db
+*.sqlite3
+
+# ==========================================
+# IDEs and Editors
+# ==========================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
